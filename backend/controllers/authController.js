@@ -4,7 +4,6 @@ const generateToken = require('../utils/generateToken');
 // @desc    Register a new user
 // @route   POST /api/auth/register
 // @access  Public
-// This function handles user registration. It checks if the user already exists, creates a new user, and returns a token for authentication.
 const registerUser = async (req, res) => {
     try {
         const { name, email, password, role } = req.body;
