@@ -76,7 +76,7 @@ const getAppliedJobs = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 };
-
+// check commit
 module.exports = {
     applyForJob,
     getJobApplicants,
